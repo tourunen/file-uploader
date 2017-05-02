@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "description": "An AJAX file uploader using JS and NodeJS",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Fady Makram",
   "license": "MIT",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
   "dependencies": {
     "express": "^4.13.3",
-    "formidable": "^1.0.17"
+    "formidable": "^1.0.17",
+    "mongodb": "^2.1.16",
+    "sharp": "^0.17.3",
+    "file-type": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
